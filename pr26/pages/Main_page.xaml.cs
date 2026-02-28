@@ -28,8 +28,9 @@ namespace pr26.pages
 
         private void go(object sender, RoutedEventArgs e)
         {
-            Main_p.Navigate(new Ticket_page());
-            Main_p.Content = new Ticket_page();
+            MainWindow.init.MainFrame.Navigate(new Ticket_page());
+ 
+            
         }
 
         private void ex(object sender, RoutedEventArgs e)

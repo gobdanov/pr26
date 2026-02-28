@@ -21,10 +21,12 @@ namespace pr26
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow init;
 
         public MainWindow()
         {
             InitializeComponent();
+            init = this;
             MainFrame.Navigate(new Main_page());
             MainFrame.Content = new Main_page();
         }

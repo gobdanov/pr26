@@ -29,6 +29,7 @@ namespace pr26.pages
         {
             Ticket_p.Navigate(new Main_page());
             Ticket_p.Content = new Main_page();
+
         }
     }
 }
