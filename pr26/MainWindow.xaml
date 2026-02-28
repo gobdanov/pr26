@@ -12,17 +12,16 @@
 
             <RowDefinition Height="198*"/>
         </Grid.RowDefinitions>
-        <Image Grid.Row="0" Margin="8,7,754,7" Source="/imgs/airplane_2708-fe0f.png"/>
-        <Label Grid.Row="0" Content="управление авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
-        <Button Grid.Row="0" Content="выход" HorizontalAlignment="Left" Margin="686,0,0,0" VerticalAlignment="Center" Width="104"/>
-        <Label Content="ПОИСК ДЕШЕВЫХ АВИАБИЛЕТОВ" HorizontalAlignment="Center" Margin="0,41,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Image Margin="8,0,0,0" Source="/imgs/airplane_2708-fe0f.png" HorizontalAlignment="Left" Width="38" Height="35" VerticalAlignment="Center"/>
+        <Label Content="управление авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
+        <Label Content="ПОИСК ДЕШЕВЫХ АВИАБИЛЕТОВ" Margin="0,41,0,0" Grid.Row="1" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Width="343" Height="36" VerticalAlignment="Top"/>
         <Label Content="купите дешево авиабилеты" HorizontalAlignment="Center" Margin="0,77,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
         <Label Content="откуда:" HorizontalAlignment="Left" Margin="228,105,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,138,0,0" Grid.Row="1" Text="" VerticalAlignment="Top" Width="344" Height="30" FontSize="16" TextWrapping="Wrap"/>
+        <TextBox Margin="228,138,228,0" Grid.Row="1" Text="" VerticalAlignment="Top" Height="30" FontSize="16" TextWrapping="Wrap"/>
         <Label Content="куда:" HorizontalAlignment="Left" Margin="228,172,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,205,0,0" Grid.Row="1" Text="" VerticalAlignment="Top" Width="344" Height="30" FontSize="16" TextWrapping="Wrap"/>
-        <Button Content="выход" HorizontalAlignment="Left" Margin="686,0,0,0" VerticalAlignment="Center" Width="104"/>
-        <Button Content="найти" HorizontalAlignment="Left" Margin="468,240,0,0" VerticalAlignment="Top" Width="104" Grid.Row="1" Background="Red" Foreground="White"/>
+        <TextBox Margin="228,205,228,0" Grid.Row="1" Text="" VerticalAlignment="Top" Height="30" FontSize="16" TextWrapping="Wrap"/>
+        <Button Content="выход" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="104"/>
+        <Button Content="найти" HorizontalAlignment="Right" Margin="0,240,228,0" VerticalAlignment="Top" Width="104" Grid.Row="1" Background="Red" Foreground="White"/>
 
     </Grid>
 </Window>
