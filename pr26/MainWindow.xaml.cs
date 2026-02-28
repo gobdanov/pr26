@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using pr26.pages;
 
 namespace pr26
 {
@@ -20,9 +21,12 @@ namespace pr26
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Main_page());
+            MainFrame.Content = new Main_page();
         }
     }
 }

@@ -10,18 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using pr26.pages;
 
 namespace pr26.pages
 {
     /// <summary>
-    /// Логика взаимодействия для Main.xaml
+    /// Логика взаимодействия для Main_page.xaml
     /// </summary>
-    public partial class Main : Window
+    public partial class Main_page : Page
     {
-        public Main()
+        public Main_page()
         {
             InitializeComponent();
+        }
+
+        private void go(object sender, RoutedEventArgs e)
+        {
+            Main_p.Navigate(new Ticket_page());
+            Main_p.Content = new Ticket_page();
+        }
+
+        private void ex(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
