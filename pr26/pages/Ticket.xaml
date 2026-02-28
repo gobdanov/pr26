@@ -1,0 +1,44 @@
+﻿<Window x:Class="pr26.pages.Ticket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr26.pages"
+        mc:Ignorable="d"
+        Title="«Управление авиалиниями" Height="450" Width="800">
+    <Grid Background="#FF288EFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+
+            <RowDefinition Height="198*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF288EFF" Grid.ColumnSpan="2" Margin="0,0,0,385" Grid.RowSpan="2">
+            <Image Margin="8,0,0,0" Source="/imgs/airplane_2708-fe0f.png" HorizontalAlignment="Left" Width="38" Height="35" VerticalAlignment="Center"/>
+            <Label Content="управление авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
+            <Button Content="выход" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="104"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="White" Grid.ColumnSpan="2">
+            <Rectangle HorizontalAlignment="Center" Height="144" Margin="0,27,0,0" Fill="#c8c8c8" VerticalAlignment="Top" Width="710"/>
+            <Label Content="1999р" HorizontalAlignment="Left" Margin="84,65,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="подробнее" Background="Red" HorizontalAlignment="Left" Margin="75,105,0,0" VerticalAlignment="Top"/>
+            <Label Content="POBEDA" HorizontalAlignment="Left" Margin="222,40,0,0" VerticalAlignment="Top"/>
+            <Label Content="05:50" HorizontalAlignment="Left" Margin="230,66,0,0" VerticalAlignment="Top"/>
+            <Label Content="пермь" HorizontalAlignment="Left" Margin="227,92,0,0" VerticalAlignment="Top"/>
+            <Label Content="29 сентября 2025г" HorizontalAlignment="Left" Margin="194,118,0,0" VerticalAlignment="Top"/>
+
+
+            <Rectangle HorizontalAlignment="Left" Height="7" Margin="294,105,0,0" Stroke="Black" VerticalAlignment="Top" Width="348"/>
+
+
+            <Label Content="POBEDA" HorizontalAlignment="Left" Margin="655,40,0,0" VerticalAlignment="Top"/>
+            <Label Content="06:50" HorizontalAlignment="Left" Margin="663,66,0,0" VerticalAlignment="Top"/>
+            <Label Content="волгоград" HorizontalAlignment="Left" Margin="649,92,0,0" VerticalAlignment="Top"/>
+            <Label Content="29 сентября 2025г" HorizontalAlignment="Left" Margin="627,118,0,0" VerticalAlignment="Top"/>
+            <Image HorizontalAlignment="Left" Source="/imgs/airplane-departure_1f6eb.png" Height="26" Margin="294,82,0,0" VerticalAlignment="Top" Width="26"/>
+            <Image HorizontalAlignment="Left" Source="/imgs/airplane-arrival_1f6ec.png" Height="26" Margin="616,82,0,0" VerticalAlignment="Top" Width="26"/>
+            <Label Content="в пути 1ч" HorizontalAlignment="Left" Margin="438,81,0,0" VerticalAlignment="Top"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
