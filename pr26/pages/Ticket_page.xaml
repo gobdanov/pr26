@@ -5,7 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pr26.pages"
       mc:Ignorable="d" 
+<<<<<<< HEAD
       d:DesignHeight="450" d:DesignWidth="800"
+=======
+      d:DesignHeight="450" MinHeight="450" d:DesignWidth="800" MinWidth="800"
+>>>>>>> 22bef85 (переход работает. богданов)
       Title="Ticket_page">
 
     <Grid Background="#FF288EFF">
@@ -15,12 +19,17 @@
             <RowDefinition Height="198*"/>
         </Grid.RowDefinitions>
         <Frame x:Name="Ticket_p" NavigationUIVisibility="Hidden"/>
+<<<<<<< HEAD
         <Grid Grid.Row="0" Background="#FF288EFF" Grid.ColumnSpan="2" Margin="0,0,0,385" Grid.RowSpan="2">
+=======
+        <Grid Grid.Row="0" Background="#FF288EFF" Grid.RowSpan="2" Height="65" VerticalAlignment="Top">
+>>>>>>> 22bef85 (переход работает. богданов)
             <Image Margin="8,0,0,0" Source="/imgs/airplane_2708-fe0f.png" HorizontalAlignment="Left" Width="38" Height="35" VerticalAlignment="Center"/>
             <Label Content="управление авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
             <Button Content="выход" Click="ex" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="104"/>
         </Grid>
         <Grid Grid.Row="1" Background="White" Grid.ColumnSpan="2">
+<<<<<<< HEAD
             <Rectangle HorizontalAlignment="Center" Height="144" Margin="0,27,0,0" Fill="#c8c8c8" VerticalAlignment="Top" Width="710"/>
             <Label Content="1999р" HorizontalAlignment="Left" Margin="84,65,0,0" VerticalAlignment="Top" FontSize="16"/>
             <Label Content="подробнее" Background="Red" HorizontalAlignment="Left" Margin="75,105,0,0" VerticalAlignment="Top"/>
@@ -40,6 +49,32 @@
             <Image HorizontalAlignment="Left" Source="/imgs/airplane-departure_1f6eb.png" Height="26" Margin="294,82,0,0" VerticalAlignment="Top" Width="26"/>
             <Image HorizontalAlignment="Left" Source="/imgs/airplane-arrival_1f6ec.png" Height="26" Margin="616,82,0,0" VerticalAlignment="Top" Width="26"/>
             <Label Content="в пути 1ч" HorizontalAlignment="Left" Margin="438,81,0,0" VerticalAlignment="Top"/>
+=======
+            <Rectangle Height="144" Margin="45,27,45,0" Fill="#c8c8c8" VerticalAlignment="Top"/>
+            <Label Content="1999р" Margin="84,65,662,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="подробнее" Background="Red" Margin="75,105,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="71"/>
+            <Label Content="POBEDA" Margin="222,40,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="55"/>
+            <Label Content="05:50" Margin="230,66,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="38"/>
+            <Label Content="пермь" Margin="227,92,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="45"/>
+            <Label Content="29 сентября 2025г" Margin="194,118,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110"/>
+            <Grid Height="31" Margin="294,81,158,0" VerticalAlignment="Top">
+
+
+                <Rectangle Height="7" Margin="0,24,0,0" Stroke="Black" VerticalAlignment="Top"/>
+
+
+                <Label Content="в пути 1ч" Margin="0,0,0,5" HorizontalAlignment="Center" Width="60"/>
+
+            </Grid>
+
+
+            <Label Content="POBEDA" Margin="0,40,90,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="55"/>
+            <Label Content="06:50" Margin="0,66,99,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="38"/>
+            <Label Content="волгоград" Margin="0,92,85,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="66"/>
+            <Label Content="29 сентября 2025г" HorizontalAlignment="Right" Margin="0,118,63,256"/>
+            <Image Source="/imgs/airplane-departure_1f6eb.png" Height="26" Margin="294,82,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="26"/>
+            <Image Source="/imgs/airplane-arrival_1f6ec.png" Height="26" Margin="0,82,158,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="26"/>
+>>>>>>> 22bef85 (переход работает. богданов)
 
         </Grid>
 
