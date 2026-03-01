@@ -22,6 +22,7 @@ namespace pr26
     public partial class MainWindow : Window
     {
         public static MainWindow init;
+        public List<TicketClass> ticketClasses = new List<TicketClass>();
 
         public MainWindow()
         {
