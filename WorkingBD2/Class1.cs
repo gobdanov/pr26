@@ -1,16 +1,28 @@
 using MySql.Data;
 using MySql.Data.MySqlClient;
+using System.Windows;
 
 namespace WorkingBD2
 {
-    public class WorkingBD
+    public static class WorkingBD
     {
-        ticketsClasses.Clear();
-        static string connection_string = "server = localhost;port=3306;database=pr26;uid=root;pwr=000756kuzya";
-        MySql.Data.MySqlClient.MySqlConnection conn = new MySqlConnection(connection_string);
-        conn.Open();
+        static string connection_string = "server=localhost;port=3306;database=pr26;uid=root;pwr=000756kuzya";
 
-        MySqlDataReader ticket_query = WorkingBD.Query("select * from pr26.Tickets;", conn);
+        static public void connect()
+        {
+            try
+            {
+                MySql.Data.MySqlClient.MySqlConnection conn = new MySqlConnection(connection_string);
+                conn.Open();
+                MessageBox.Show("подключение успешно!!");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+        }
     }
 
 }

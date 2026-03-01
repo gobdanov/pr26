@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DBConnection;
 
 namespace pr26
 {
@@ -31,16 +32,13 @@ namespace pr26
             init = this;
             MainFrame.Navigate(new Main_page());
             MainFrame.Content = new Main_page();
+            LoadTickets();
         }
 
         public void LoadTickets()
         {
             ticketClasses.Clear();
-            string connection_string = "server = localhost;port=3306;database=pr26;uid=root;pwr=000756kuzya";
-            MySql.Data.MySqlClient.MySqlConnection conn = new MySqlConnection(connection_string);
-            conn.Open();
-
-            MySqlDataReader tickets_query = WorkingBD()
+            DBConnection.DBConnection.connect_to_database();
         }
     }
 }
