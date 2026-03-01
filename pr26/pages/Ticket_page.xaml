@@ -25,7 +25,7 @@
         <Grid Grid.Row="0" Background="#FF288EFF" Grid.RowSpan="2" Height="65" VerticalAlignment="Top">
 >>>>>>> 22bef85 (переход работает. богданов)
             <Image Margin="8,0,0,0" Source="/imgs/airplane_2708-fe0f.png" HorizontalAlignment="Left" Width="38" Height="35" VerticalAlignment="Center"/>
-            <Label Content="управление авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
+            <Label Content="управлeние авиалиниями" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center" FontSize="16" FontFamily="Verdana" Foreground="White" Height="29" FontWeight="Bold"/>
             <Button Content="выход" Click="ex" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="104"/>
         </Grid>
         <Grid Grid.Row="1" Background="White" Grid.ColumnSpan="2">
