@@ -13,10 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using pr26.pages;
-<<<<<<< HEAD
-=======
 using pr26;
->>>>>>> 22bef85 (переход работает. богданов)
 
 namespace pr26.pages
 {
@@ -33,20 +30,11 @@ namespace pr26.pages
         private void go(object sender, RoutedEventArgs e)
         {
             MainWindow.init.MainFrame.Navigate(new Ticket_page());
-<<<<<<< HEAD
- 
-            
-=======
->>>>>>> 22bef85 (переход работает. богданов)
         }
 
         private void ex(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-            
-=======
             MainWindow.init.Close();
->>>>>>> 22bef85 (переход работает. богданов)
         }
     }
 }

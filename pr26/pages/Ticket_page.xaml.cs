@@ -27,13 +27,9 @@ namespace pr26.pages
 
         private void ex(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
             Ticket_p.Navigate(new Main_page());
             Ticket_p.Content = new Main_page();
-
-=======
             MainWindow.init.MainFrame.Navigate(new Main_page());
->>>>>>> 22bef85 (переход работает. богданов)
         }
     }
 }
