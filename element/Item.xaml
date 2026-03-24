@@ -13,20 +13,20 @@
             <ColumnDefinition Width="360*"/>
             <ColumnDefinition Width="131"/>
         </Grid.ColumnDefinitions>
-        <Label Content="1999р" x:Name="price_lbl" Margin="0,41,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Center" Width="54" Height="31"/>
-        <Label Content="подробнее" Background="Red" Margin="0,76,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="71" Height="26"/>
-        <Label Content="POBEDA" Margin="0,24,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="56" Grid.Column="1" Height="26"/>
-        <Label Content="05:50" x:Name="time1_lbl" Margin="0,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="38" Grid.Column="1" Height="26"/>
-        <Label Content="пермь" x:Name="from_lbl" Margin="0,76,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="44" Grid.Column="1" Height="26"/>
-        <Label Content="29 сентября 2025г" x:Name="date1_lbl" Margin="0,102,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="110" Grid.Column="1" Height="26"/>
+        <Label Content="1999р" x:Name="price_lbl" Margin="0,41,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Center" Height="31"/>
+        <Label Content="подробнее" Background="Red" Margin="0,76,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"  Height="26"/>
+        <Label Content="POBEDA" Margin="35,24,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="56" Grid.Column="1" Height="26"/>
+        <Label Content="05:50" x:Name="time1_lbl" Margin="43,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Height="26"/>
+        <Label Content="пермь" x:Name="from_lbl" Margin="40,76,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Height="26"/>
+        <Label Content="29 сентября 2025г" x:Name="date1_lbl" Margin="8,102,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110" Grid.Column="1" Height="26"/>
         <Rectangle Height="7" Margin="17,85,14,0" Stroke="Black" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label Content="в пути 1ч" Margin="139,51,0,67" HorizontalAlignment="Left" Width="60" Grid.Column="2"/>
-        <Image Source="/imgs/airplane-departure_1f6eb.png" Height="26" Margin="20,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="26" Grid.Column="2"/>
-        <Image Source="/imgs/airplane-arrival_1f6ec.png" Height="26" Margin="0,60,11,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="26" Grid.Column="2"/>
-        <Label Content="POBEDA" Margin="0,24,41,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="55" Grid.Column="3" Height="26"/>
-        <Label Content="06:50" Margin="0,50,50,0" x:Name="time2_lbl" VerticalAlignment="Top" HorizontalAlignment="Right" Width="38" Grid.Column="3" Height="26"/>
-        <Label Content="волгоград" x:Name="to_lbl" Margin="0,76,36,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="66" Grid.Column="3" Height="26"/>
-        <Label Content="29 сентября 2025г" x:Name="date2_lbl" Margin="0,102,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="110" Grid.Column="3" Height="26"/>
+        <Label Content="в пути 1ч" x:Name="time_way_lbl" Margin="139,51,0,67" HorizontalAlignment="Left" Grid.Column="2"/>
+        <Image Source="/imgs/airplane-departure_1f6eb.png" Height="26" Margin="20,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="2"/>
+        <Image Source="/imgs/airplane-arrival_1f6ec.png" Height="26" Margin="0,60,11,0" VerticalAlignment="Top" HorizontalAlignment="Right"  Grid.Column="2"/>
+        <Label Content="POBEDA" Margin="35,24,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="3" Height="26"/>
+        <Label Content="06:50" Margin="43,50,0,0" x:Name="time2_lbl" VerticalAlignment="Top" HorizontalAlignment="Left"  Grid.Column="3" Height="26"/>
+        <Label Content="волгоград" x:Name="to_lbl" Margin="29,76,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"  Grid.Column="3" Height="26"/>
+        <Label Content="29 сентября 2025г" x:Name="date2_lbl" Margin="11,102,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="3" Height="26"/>
 
     </Grid>
 </UserControl>

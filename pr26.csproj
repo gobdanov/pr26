@@ -108,6 +108,7 @@
     <Compile Include="element\Item.xaml.cs">
       <DependentUpon>Item.xaml</DependentUpon>
     </Compile>
+    <Compile Include="temp_class.cs" />
     <Compile Include="TicketClass.cs" />
     <Page Include="element\Item.xaml">
       <SubType>Designer</SubType>

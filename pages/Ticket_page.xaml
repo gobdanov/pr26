@@ -22,7 +22,7 @@
                 <Button Content="выход" Click="ex" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="104"/>
             </Grid>
             <Grid Background="White" Margin="0,66,0,-388">
-                <ScrollViewer>
+                <ScrollViewer Height="387" VerticalAlignment="Center" HorizontalAlignment="Left" Width="800">
                     <StackPanel x:Name="stack" Margin="76,54,78,39"/>
                 </ScrollViewer>
             </Grid>

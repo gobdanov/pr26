@@ -34,6 +34,10 @@ namespace pr26.element
             date2_lbl.Content = date2;
             time1_lbl.Content = time1;
             time2_lbl.Content = time2;
+            var tm1 = TimeSpan.Parse(time1);
+            var tm2 = TimeSpan.Parse(time2);
+            TimeSpan res = tm2.Subtract(tm1);
+            time_way_lbl.Content = $"в пути {res}";
         }
     }
 }

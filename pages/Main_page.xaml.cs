@@ -25,11 +25,20 @@ namespace pr26.pages
         public Main_page()
         {
             InitializeComponent();
+            temp_class.from = "";
+            temp_class.to = "";
+            temp_class.date = "";
         }
 
         private void go(object sender, RoutedEventArgs e)
         {
+            temp_class.from = Convert.ToString(from_txtbx.Text);
+            temp_class.to = Convert.ToString(to_txtbx.Text);
+            if (datepicker.Text == "") { }
+            else temp_class.date = (datepicker.Text);
+            MessageBox.Show($"{datepicker.Text}");
             MainWindow.init.MainFrame.Navigate(new Ticket_page());
+            
         }
 
         private void ex(object sender, RoutedEventArgs e)
